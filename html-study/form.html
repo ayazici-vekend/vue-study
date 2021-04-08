@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>forms</title>
+    </head>
+
+    <body>
+        <h1>HTML Forms</h1>
+
+        <form>
+            <label for="username">Username: </label>
+            <input type="text" id="username" name="username" placeholder="username" required>
+
+            <br><br>
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" placeholder="email" required>
+
+            <br><br>
+
+            <label for="password">Password: </label>
+            <input type="password" id="password" name="password" placeholder="password" required>
+
+            <br><br>
+
+            <p>Gender: <p>
+            <input type="radio" name="gender" value="male" id="gender1">
+            <label for="gender1">Male</label>
+            <input type="radio" name="gender" value="female" id="gender2">
+            <label for="gender2">Female</label>
+            <input type="radio" name="gender" value="other" id="gender3">
+            <label for="gender3">Other</label>
+
+            <br>
+
+            <p>Age: </p>
+            <input type="radio" name="age" value="18-45">18-45 <br>
+            <input type="radio" name="age" value="45+">45+ <br>
+
+            <br>
+
+            <label for="question">Security Question</label>
+            <select name="question" id="question">
+                <option value="q1">What is your favorite color?</option>
+                <option value="q2">What is the name of your mother?</option>
+                <option value="q3">What is your pet's name?</option>
+            </select>
+
+            <br><br>
+
+            <label for="answer">Security question answer: </label>
+            <input type="text" id="answer" name="answer">
+
+            <br><br>
+
+            <label for="bio">Your bio: </label><br>
+            <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Enter your bio..."></textarea>
+
+            <br>
+
+            <input type="submit" value="Submit Form">
+        </form>
+
+        <a href="/index.html">Index page</a>
+    </body>
+</html>
